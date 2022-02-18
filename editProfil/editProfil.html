@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <title>Shopping Cart | Create Product Page</title>
+
+    <link rel="stylesheet" href="../index/master.css" />
+    <link rel="stylesheet" href="../createProduct/createProduct.css" />
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="../index/index.html" class="brand"> Shopping Cart </a>
+
+                <nav>
+                    <ul id="links">
+                        <li><a href="../login/login.html"> Sign In </a></li>
+                        <li><a href="../register/register.html"> Sign Up </a></li>
+                    </ul>
+                    <ul id="user_info">
+                        <li><a href="../myProfile/profile.html" id="user"></a></li>
+                        <li><a href="../favourites/favourites.html"> Favorites </a></li>
+                        <li><a href="../myProduct/myProduct.html"> My Products </a></li>
+                        <li class="shoppingCart">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span class="badge"></span>
+
+                            <div class="carts-products">
+                                <div></div>
+                                <a href="../cart-prouducts/cart-products.html"> view all products </a>
+                            </div>
+                        </li>
+                        <li><a href="#" id="logout"> Logout</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="edit-profile-page">
+        <div class="container">
+            <form id="edit-profile-form">
+                <input id="changeName" type="text" />
+                <input id="changeEmail" type="email" />
+
+                <input type="submit" value="Edit Profile" />
+            </form>
+        </div>
+        <a href="../createProduct/createProduct.html" class="create-product-icon">
+            <i class="fa fa-plus"></i>
+        </a>
+    </section>
+
+    <script src="../index/user.js"></script>
+    <script src="../index/data.js"></script>
+    <script src="../langDir/langDir.js"></script>
+    <script src="../langDir/cartMenu.js"></script>
+    <script src="editProfil.js"></script>
+</body>
+
+</html>

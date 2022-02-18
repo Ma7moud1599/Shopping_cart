@@ -1,0 +1,38 @@
+let productsDB = [
+  {
+    id: 1,
+    title: "headphone item",
+    desc: "Lorem ipsum, dolor sit amet consectetur.",
+    size: "large",
+    imageUrl: "../../img/lap1.jpg",
+    qty: 1,
+    isMe: "N",
+  },
+  {
+    id: 2,
+    title: "labtop item",
+    desc: "Lorem ipsum, dolor sit amet consectetur.",
+    size: "small",
+    imageUrl: "../../img/lap2.jpg",
+    qty: 1,
+    isMe: "N",
+  },
+  {
+    id: 3,
+    title: "watch item",
+    desc: "Lorem ipsum, dolor sit amet consectetur.",
+    size: "medium",
+    imageUrl: "../../img/lap3.jpg",
+    qty: 1,
+    isMe: "N",
+  },
+  {
+    id: 4,
+    title: "glasses item",
+    desc: "Lorem ipsum, dolor sit amet consectetur.",
+    size: "large",
+    imageUrl: "../../img/lap4.jpg",
+    qty: 1,
+    isMe: "N",
+  },
+];
